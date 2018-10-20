@@ -1,7 +1,10 @@
 #ifndef UTIL_H_
 #define UTIL_H_
 
-int min(int, int);
-int max(int, int);
+int ms_min(int, int);
+int ms_max(int, int);
+
+int ms_get_char();
+int ms_get_int();
 
 #endif
