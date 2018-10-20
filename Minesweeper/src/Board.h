@@ -1,11 +1,6 @@
 #ifndef BOARD_H_
 #define BOARD_H_
 
-#define MS_FINE 0
-#define MS_WIN 1
-#define MS_LOSE -1
-#define MS_CANNOT_FLAG -2
-
 typedef struct cell
 {
 	int is_bombed,

@@ -6,9 +6,17 @@
 
 #define SPACE " "
 #define NEW_LINE "\n"
-#define FLAG "F"
+#define MS_NUMBER_FORMAT "%d"
+#define MS_NUMBER_ZERO_FORMAT " "
+#define FLAG "X"
 #define BOMB "*"
 #define HIDDEN "."
+#define MS_CELL_SEPARATOR " | "
+#define MS_LINE_PREFIX "\n     "
+#define MS_LINE_FORMAT "----"
+#define MS_ROW_INDEX_FORMAT "\n%3d %s"
+#define MS_COL_INDEX_FORMAT "%3d "
+#define MS_BOTTOM_FORMAT "%d shown, %d/%d flagged, %d hidden"
 
 /***********************************************************************/
 
@@ -44,7 +52,6 @@ void ms_cell_update_nb_neighbours(ms_board* board, int row, int col)
 }
 
 // Returns nb of bombs
-
 
 int ms_board_update_nb_neighbours(ms_board* board)
 {
@@ -115,33 +122,69 @@ void ms_cell_print(ms_cell cell)
 		printf(HIDDEN);
 	else if (cell.is_bombed)
 		printf(BOMB);
+	else if (!cell.nb_neighbours)
+		printf(MS_NUMBER_ZERO_FORMAT);
 	else
-		printf("%d", cell.nb_neighbours);
+		printf(MS_NUMBER_FORMAT, cell.nb_neighbours);
 }
 
-void ms_row_print(ms_cell* cells, int nb_cols)
+void ms_row_print(ms_cell* cells, int row_index, int nb_cols)
 {
 	if (nb_cols > 0)
 	{
-		ms_cell_print(*cells);
-		printf(SPACE);
-		ms_row_print(cells + 1, nb_cols - 1);
+		ms_row_print(cells, row_index, nb_cols - 1);
+		ms_cell_print(*(cells + nb_cols - 1));
+		printf(MS_CELL_SEPARATOR);
 	}
+	else
+		printf(MS_ROW_INDEX_FORMAT, row_index, MS_CELL_SEPARATOR);
+
+}
+
+void ms_header_print(int nb_cols)
+{
+	if (nb_cols > 0)
+	{
+		ms_header_print(nb_cols - 1);
+		printf(MS_COL_INDEX_FORMAT, nb_cols);
+	}
+	else
+		printf(MS_LINE_PREFIX);
+}
+
+void ms_line_print(int nb_cols)
+{
+	if (nb_cols > 0)
+	{
+		ms_line_print(nb_cols - 1);
+		printf(MS_LINE_FORMAT);
+	}
+	else
+		printf(MS_LINE_PREFIX);
 }
 
 void ms_matrix_print(ms_cell** cells, int nb_rows, int nb_cols)
 {
 	if(nb_rows > 0)
 	{
-		ms_row_print(*cells, nb_cols);
-		printf(NEW_LINE);
-		ms_matrix_print(cells + 1, nb_rows - 1, nb_cols);
+		ms_matrix_print(cells, nb_rows - 1, nb_cols);
+		ms_line_print(nb_cols);
+		ms_row_print(*(cells + nb_rows - 1), nb_rows, nb_cols);
 	}
+	else
+		ms_header_print(nb_cols);
 }
 
 void ms_board_print(ms_board* board)
 {
 	ms_matrix_print(board->cells, board->nb_rows, board->nb_cols);
+	ms_line_print(board->nb_cols);
+	printf(NEW_LINE);
+	printf(MS_BOTTOM_FORMAT,
+			board->nb_shown, board->nb_flags, board->nb_bombs,
+			board->nb_rows * board->nb_cols - (board->nb_shown + board->nb_flags)
+			);
+	printf(NEW_LINE);
 	printf(NEW_LINE);
 }
 
@@ -167,5 +210,3 @@ void ms_board_free(ms_board* board)
 	ms_matrix_free(board->cells, board->nb_rows);
 	free(board);
 }
-
-
