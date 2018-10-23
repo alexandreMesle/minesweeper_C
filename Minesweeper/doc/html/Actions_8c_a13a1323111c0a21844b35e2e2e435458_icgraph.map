@@ -1,0 +1,8 @@
+<map id="ms_board_open_cell" name="ms_board_open_cell">
+<area shape="rect" id="node2" href="$Actions_8h.html#a4891f0604d6e09e18fc28d07d72b08a8" title="ms_board_open" alt="" coords="229,5,344,32"/>
+<area shape="rect" id="node6" href="$Actions_8c.html#a86de079237696b3bb923b3b9b03b0b1c" title="ms_board_open_neighbours" alt="" coords="195,56,379,83"/>
+<area shape="rect" id="node7" href="$Actions_8c.html#a209605bf7d1f88157df076a2728d016a" title="ms_cell_show" alt="" coords="234,107,339,133"/>
+<area shape="rect" id="node3" href="$Minesweeper_8c.html#aa8f5c1c7c248d44efe271e2f29558b00" title="ms_play_once" alt="" coords="427,5,533,32"/>
+<area shape="rect" id="node4" href="$Minesweeper_8c.html#a12c6d2a1edfead136178780969f36ead" title="ms_play" alt="" coords="581,5,652,32"/>
+<area shape="rect" id="node5" href="$Minesweeper_8c.html#a1c03069360f1f90a556eb537e0ff8a72" title="main" alt="" coords="700,5,751,32"/>
+</map>

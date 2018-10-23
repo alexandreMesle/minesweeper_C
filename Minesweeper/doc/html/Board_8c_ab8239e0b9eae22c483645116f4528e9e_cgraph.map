@@ -1,0 +1,12 @@
+<map id="ms_board_make" name="ms_board_make">
+<area shape="rect" id="node2" href="$Board_8c.html#aae83602dc0d787a5c713f8da71c2a59d" title="ms_board_update_nb\l_neighbours" alt="" coords="172,49,319,90"/>
+<area shape="rect" id="node9" href="$Board_8c.html#a9e7479692d97234de287953a7004836f" title="ms_matrix_make" alt="" coords="184,125,307,152"/>
+<area shape="rect" id="node3" href="$Board_8c.html#a0b151b5439922f8fbd4386382862b4a6" title="ms_board_get" alt="" coords="620,5,724,32"/>
+<area shape="rect" id="node6" href="$Board_8c.html#aa68c5c6fc9741b140f02dedd04f45495" title="ms_cell_update_nb_neighbours" alt="" coords="367,56,571,83"/>
+<area shape="rect" id="node4" href="$Board_8c.html#a8e919b2948ce3d3d8d8ccd93a9d4b9bc" title="ms_matrix_get" alt="" coords="773,5,881,32"/>
+<area shape="rect" id="node5" href="$Board_8c.html#ac35bdf0d562f018f2042bbad4f364a31" title="ms_row_get" alt="" coords="929,5,1023,32"/>
+<area shape="rect" id="node7" href="$Util_8c.html#a0c741c21794090b06be654a8962a65eb" title="ms_max" alt="" coords="636,56,708,83"/>
+<area shape="rect" id="node8" href="$Util_8c.html#a913c6f943d981f2f78c6aeed75e24721" title="ms_min" alt="" coords="793,81,861,108"/>
+<area shape="rect" id="node10" href="$Board_8c.html#a780701dc1c0a418bdd605e38b6125675" title="ms_row_make" alt="" coords="415,147,522,173"/>
+<area shape="rect" id="node11" href="$Board_8c.html#a4acc1327f269bb148d85f249ec060e9b" title="ms_cell_make" alt="" coords="619,157,725,184"/>
+</map>

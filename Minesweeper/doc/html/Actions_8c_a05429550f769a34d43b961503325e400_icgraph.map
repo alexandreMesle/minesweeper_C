@@ -1,0 +1,10 @@
+<map id="ms_board_status" name="ms_board_status">
+<area shape="rect" id="node2" href="$Actions_8c.html#a13a1323111c0a21844b35e2e2e435458" title="ms_board_open_cell" alt="" coords="180,69,321,96"/>
+<area shape="rect" id="node9" href="$Actions_8h.html#afde07ac6b479201c1d6060a1955aa1ab" title="ms_board_toggle_flag" alt="" coords="176,132,325,159"/>
+<area shape="rect" id="node3" href="$Actions_8h.html#a4891f0604d6e09e18fc28d07d72b08a8" title="ms_board_open" alt="" coords="408,5,523,32"/>
+<area shape="rect" id="node7" href="$Actions_8c.html#a86de079237696b3bb923b3b9b03b0b1c" title="ms_board_open_neighbours" alt="" coords="373,56,557,83"/>
+<area shape="rect" id="node8" href="$Actions_8c.html#a209605bf7d1f88157df076a2728d016a" title="ms_cell_show" alt="" coords="413,107,518,133"/>
+<area shape="rect" id="node4" href="$Minesweeper_8c.html#aa8f5c1c7c248d44efe271e2f29558b00" title="ms_play_once" alt="" coords="605,81,712,108"/>
+<area shape="rect" id="node5" href="$Minesweeper_8c.html#a12c6d2a1edfead136178780969f36ead" title="ms_play" alt="" coords="760,81,831,108"/>
+<area shape="rect" id="node6" href="$Minesweeper_8c.html#a1c03069360f1f90a556eb537e0ff8a72" title="main" alt="" coords="879,81,929,108"/>
+</map>

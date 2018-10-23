@@ -1,0 +1,6 @@
+<map id="ms_matrix_print" name="ms_matrix_print">
+<area shape="rect" id="node2" href="$Board_8h.html#a815a7bdf13ef90432923fe3436654636" title="ms_board_print" alt="" coords="168,31,279,57"/>
+<area shape="rect" id="node3" href="$Minesweeper_8c.html#aa8f5c1c7c248d44efe271e2f29558b00" title="ms_play_once" alt="" coords="327,5,433,32"/>
+<area shape="rect" id="node4" href="$Minesweeper_8c.html#a12c6d2a1edfead136178780969f36ead" title="ms_play" alt="" coords="481,31,552,57"/>
+<area shape="rect" id="node5" href="$Minesweeper_8c.html#a1c03069360f1f90a556eb537e0ff8a72" title="main" alt="" coords="600,31,651,57"/>
+</map>

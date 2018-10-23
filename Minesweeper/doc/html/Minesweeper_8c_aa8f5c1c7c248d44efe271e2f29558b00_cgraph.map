@@ -1,0 +1,22 @@
+<map id="ms_play_once" name="ms_play_once">
+<area shape="rect" id="node2" href="$Actions_8c.html#a4891f0604d6e09e18fc28d07d72b08a8" title="ms_board_open" alt="" coords="160,157,275,184"/>
+<area shape="rect" id="node12" href="$Board_8c.html#a815a7bdf13ef90432923fe3436654636" title="ms_board_print" alt="" coords="162,268,273,295"/>
+<area shape="rect" id="node18" href="$Actions_8c.html#afde07ac6b479201c1d6060a1955aa1ab" title="ms_board_toggle_flag" alt="" coords="323,208,472,235"/>
+<area shape="rect" id="node20" href="$Util_8c.html#a46423fe1d83d5267e0baa54d05bc253e" title="ms_get_char" alt="" coords="169,319,266,345"/>
+<area shape="rect" id="node21" href="$Util_8c.html#acb47e5acc2fc9cc2a2f2337797310938" title="ms_get_int" alt="" coords="174,369,261,396"/>
+<area shape="rect" id="node3" href="$Board_8c.html#a0b151b5439922f8fbd4386382862b4a6" title="ms_board_get" alt="" coords="560,157,664,184"/>
+<area shape="rect" id="node6" href="$Actions_8c.html#a13a1323111c0a21844b35e2e2e435458" title="ms_board_open_cell" alt="" coords="327,56,468,83"/>
+<area shape="rect" id="node4" href="$Board_8c.html#a8e919b2948ce3d3d8d8ccd93a9d4b9bc" title="ms_matrix_get" alt="" coords="752,157,860,184"/>
+<area shape="rect" id="node5" href="$Board_8c.html#ac35bdf0d562f018f2042bbad4f364a31" title="ms_row_get" alt="" coords="908,157,1001,184"/>
+<area shape="rect" id="node7" href="$Actions_8c.html#a86de079237696b3bb923b3b9b03b0b1c" title="ms_board_open_neighbours" alt="" coords="520,56,704,83"/>
+<area shape="rect" id="node10" href="$Actions_8c.html#a05429550f769a34d43b961503325e400" title="ms_board_status" alt="" coords="551,107,673,133"/>
+<area shape="rect" id="node11" href="$Actions_8c.html#a209605bf7d1f88157df076a2728d016a" title="ms_cell_show" alt="" coords="559,5,665,32"/>
+<area shape="rect" id="node8" href="$Util_8c.html#a0c741c21794090b06be654a8962a65eb" title="ms_max" alt="" coords="770,31,842,57"/>
+<area shape="rect" id="node9" href="$Util_8c.html#a913c6f943d981f2f78c6aeed75e24721" title="ms_min" alt="" coords="921,81,989,108"/>
+<area shape="rect" id="node13" href="$Board_8c.html#a70c291cb76f97cfc836a2da9d5b8ba2c" title="ms_line_print" alt="" coords="563,360,661,387"/>
+<area shape="rect" id="node14" href="$Board_8c.html#adf60e994adb13b284c67d81a679a1293" title="ms_matrix_print" alt="" coords="340,272,455,299"/>
+<area shape="rect" id="node15" href="$Board_8c.html#aa3d556165ba601feb17e68059a1b094b" title="ms_header_print" alt="" coords="553,309,671,336"/>
+<area shape="rect" id="node16" href="$Board_8c.html#a0b3cd7494029f6385cbd5710f9b9a609" title="ms_row_print" alt="" coords="562,259,662,285"/>
+<area shape="rect" id="node17" href="$Board_8c.html#a9374529e3bcbcec0b4bc0a7f7e3e9359" title="ms_cell_print" alt="" coords="757,259,855,285"/>
+<area shape="rect" id="node19" href="$Actions_8c.html#ad1ca33f6d54c98a752d2699fff482bd7" title="ms_cell_toggle_flag" alt="" coords="543,208,681,235"/>
+</map>

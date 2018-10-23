@@ -1,0 +1,6 @@
+<map id="ms_cell_make" name="ms_cell_make">
+<area shape="rect" id="node2" href="$Board_8c.html#a780701dc1c0a418bdd605e38b6125675" title="ms_row_make" alt="" coords="160,5,267,32"/>
+<area shape="rect" id="node3" href="$Board_8c.html#a9e7479692d97234de287953a7004836f" title="ms_matrix_make" alt="" coords="315,5,437,32"/>
+<area shape="rect" id="node4" href="$Board_8h.html#ab8239e0b9eae22c483645116f4528e9e" title="ms_board_make" alt="" coords="485,5,604,32"/>
+<area shape="rect" id="node5" href="$Minesweeper_8c.html#a1c03069360f1f90a556eb537e0ff8a72" title="main" alt="" coords="652,5,703,32"/>
+</map>

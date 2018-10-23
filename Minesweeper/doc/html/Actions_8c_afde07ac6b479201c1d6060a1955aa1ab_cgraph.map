@@ -1,0 +1,7 @@
+<map id="ms_board_toggle_flag" name="ms_board_toggle_flag">
+<area shape="rect" id="node2" href="$Board_8c.html#a0b151b5439922f8fbd4386382862b4a6" title="ms_board_get" alt="" coords="219,5,323,32"/>
+<area shape="rect" id="node5" href="$Actions_8c.html#a05429550f769a34d43b961503325e400" title="ms_board_status" alt="" coords="210,56,333,83"/>
+<area shape="rect" id="node6" href="$Actions_8c.html#ad1ca33f6d54c98a752d2699fff482bd7" title="ms_cell_toggle_flag" alt="" coords="203,107,340,133"/>
+<area shape="rect" id="node3" href="$Board_8c.html#a8e919b2948ce3d3d8d8ccd93a9d4b9bc" title="ms_matrix_get" alt="" coords="388,5,496,32"/>
+<area shape="rect" id="node4" href="$Board_8c.html#ac35bdf0d562f018f2042bbad4f364a31" title="ms_row_get" alt="" coords="544,5,637,32"/>
+</map>

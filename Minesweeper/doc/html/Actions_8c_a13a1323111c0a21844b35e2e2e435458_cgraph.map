@@ -1,0 +1,10 @@
+<map id="ms_board_open_cell" name="ms_board_open_cell">
+<area shape="rect" id="node2" href="$Board_8c.html#a0b151b5439922f8fbd4386382862b4a6" title="ms_board_get" alt="" coords="235,5,339,32"/>
+<area shape="rect" id="node5" href="$Actions_8c.html#a86de079237696b3bb923b3b9b03b0b1c" title="ms_board_open_neighbours" alt="" coords="195,56,379,83"/>
+<area shape="rect" id="node8" href="$Actions_8c.html#a05429550f769a34d43b961503325e400" title="ms_board_status" alt="" coords="225,107,348,133"/>
+<area shape="rect" id="node9" href="$Actions_8c.html#a209605bf7d1f88157df076a2728d016a" title="ms_cell_show" alt="" coords="234,157,339,184"/>
+<area shape="rect" id="node3" href="$Board_8c.html#a8e919b2948ce3d3d8d8ccd93a9d4b9bc" title="ms_matrix_get" alt="" coords="427,5,535,32"/>
+<area shape="rect" id="node4" href="$Board_8c.html#ac35bdf0d562f018f2042bbad4f364a31" title="ms_row_get" alt="" coords="583,5,676,32"/>
+<area shape="rect" id="node6" href="$Util_8c.html#a0c741c21794090b06be654a8962a65eb" title="ms_max" alt="" coords="445,56,517,83"/>
+<area shape="rect" id="node7" href="$Util_8c.html#a913c6f943d981f2f78c6aeed75e24721" title="ms_min" alt="" coords="595,81,663,108"/>
+</map>

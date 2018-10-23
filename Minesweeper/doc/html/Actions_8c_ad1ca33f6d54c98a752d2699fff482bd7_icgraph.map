@@ -1,0 +1,6 @@
+<map id="ms_cell_toggle_flag" name="ms_cell_toggle_flag">
+<area shape="rect" id="node2" href="$Actions_8h.html#afde07ac6b479201c1d6060a1955aa1ab" title="ms_board_toggle_flag" alt="" coords="191,5,340,32"/>
+<area shape="rect" id="node3" href="$Minesweeper_8c.html#aa8f5c1c7c248d44efe271e2f29558b00" title="ms_play_once" alt="" coords="388,5,495,32"/>
+<area shape="rect" id="node4" href="$Minesweeper_8c.html#a12c6d2a1edfead136178780969f36ead" title="ms_play" alt="" coords="543,5,613,32"/>
+<area shape="rect" id="node5" href="$Minesweeper_8c.html#a1c03069360f1f90a556eb537e0ff8a72" title="main" alt="" coords="661,5,712,32"/>
+</map>

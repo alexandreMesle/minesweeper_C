@@ -1,0 +1,14 @@
+<map id="ms_matrix_get" name="ms_matrix_get">
+<area shape="rect" id="node2" href="$Board_8h.html#a0b151b5439922f8fbd4386382862b4a6" title="ms_board_get" alt="" coords="161,107,265,133"/>
+<area shape="rect" id="node3" href="$Actions_8h.html#afde07ac6b479201c1d6060a1955aa1ab" title="ms_board_toggle_flag" alt="" coords="341,5,490,32"/>
+<area shape="rect" id="node7" href="$Actions_8c.html#a13a1323111c0a21844b35e2e2e435458" title="ms_board_open_cell" alt="" coords="345,107,486,133"/>
+<area shape="rect" id="node8" href="$Actions_8h.html#a4891f0604d6e09e18fc28d07d72b08a8" title="ms_board_open" alt="" coords="600,56,715,83"/>
+<area shape="rect" id="node11" href="$Board_8c.html#aa68c5c6fc9741b140f02dedd04f45495" title="ms_cell_update_nb_neighbours" alt="" coords="313,159,517,185"/>
+<area shape="rect" id="node12" href="$Board_8c.html#aae83602dc0d787a5c713f8da71c2a59d" title="ms_board_update_nb\l_neighbours" alt="" coords="584,209,731,250"/>
+<area shape="rect" id="node4" href="$Minesweeper_8c.html#aa8f5c1c7c248d44efe271e2f29558b00" title="ms_play_once" alt="" coords="797,56,904,83"/>
+<area shape="rect" id="node5" href="$Minesweeper_8c.html#a12c6d2a1edfead136178780969f36ead" title="ms_play" alt="" coords="976,69,1047,96"/>
+<area shape="rect" id="node6" href="$Minesweeper_8c.html#a1c03069360f1f90a556eb537e0ff8a72" title="main" alt="" coords="1119,121,1169,148"/>
+<area shape="rect" id="node9" href="$Actions_8c.html#a86de079237696b3bb923b3b9b03b0b1c" title="ms_board_open_neighbours" alt="" coords="565,107,749,133"/>
+<area shape="rect" id="node10" href="$Actions_8c.html#a209605bf7d1f88157df076a2728d016a" title="ms_cell_show" alt="" coords="605,157,710,184"/>
+<area shape="rect" id="node13" href="$Board_8h.html#ab8239e0b9eae22c483645116f4528e9e" title="ms_board_make" alt="" coords="952,147,1071,173"/>
+</map>
